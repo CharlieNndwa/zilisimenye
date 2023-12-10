@@ -34,11 +34,16 @@ const navigationMenu = [
 ];
 
 const Navigation = () => {
+  const donateSection = () => {
+    window.location.href = '#donation';
+  };
+
   const [navOpen, setNavOpen] = useState(false);
   const [dimension, setDimensions] = useState({
-    height: window.innerHeight,
-    width: window.innerWidth,
+    height: typeof window !== 'undefined' ? window.innerHeight : 0,
+    width: typeof window !== 'undefined' ? window.innerWidth : 0,
   });
+  
 
   const mobileMenuHandler = () => {
     setNavOpen(!navOpen);
@@ -109,6 +114,7 @@ const Navigation = () => {
             <div>
               <Link
                 href="#donation"
+                onClick={donateSection}
                 className="px-4 py-4 bg-primary text-white rounded-lg hidden lg:inline-block hover:bg-blue-900"
               >
                 Donate

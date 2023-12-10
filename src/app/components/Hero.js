@@ -20,6 +20,13 @@ const heroContent = {
 };
 
 const Hero = () => {
+  const handleBackToTopClick = () => {
+    window.location.href = '#contact';
+  };
+
+  const donateSection = () => {
+    window.location.href = '#donation';
+  };
   
   return (
     <motion.section
@@ -56,6 +63,7 @@ const Hero = () => {
             <div className="flex space-x-3">
               <Link
                href='#contact'
+               onClick={handleBackToTopClick}
                 className="py-4 px-5 bg-blue-600 text-white rounded-lg hover:bg-[#134761] hover:shadow-lg inline-block relative top-0 hover:-top-1"
               >
                 Contact Us
@@ -63,6 +71,7 @@ const Hero = () => {
 
               <Link
                 href="#donation"
+                onClick={donateSection}
                 className="py-4 px-5 bg-secondary text-white rounded-lg hover:bg-[#134761] hover:shadow-lg inline-block relative top-0 hover:-top-1"
               >
                 Donate
