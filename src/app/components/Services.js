@@ -9,7 +9,7 @@ const servicesContent = {
   },
   items: [
     {
-      icon: "/images/icon-1.svg",
+      icon: "/images/shield.png",
       title: "On-site Security & Armed Response",
       description: "On-site security with armed response ensures immediate, trained intervention to protect residents and staff from threats, fostering peace of mind for families"
     },
@@ -19,22 +19,22 @@ const servicesContent = {
       description: "Qualified healthcare professionals keep a watchful eye 24/7, ensuring timely assistance and peace of mind for your loved ones."
     },
     {
-      icon: "/images/icon-3.svg",
+      icon: "/images/diet.png",
       title: "Balanced Diet Provision",
       description: "Our chefs whip up delicious, nutritious meals, ensuring a balanced diet for every resident's needs and preferences."
     },
     {
-      icon: "/images/icon-4.svg",
+      icon: "/images/hospital.png",
       title: "Healthcare Services",
       description: "We handle healthcare needs seamlessly, even arranging transport for hospital visits and medication pickups"
     }, 
     {
-      icon: "/images/icon-5.svg",
+      icon: "/images/exercise.png",
       title: "Stimulation Programs",
       description: "We keep bodies and minds active with physiotherapy, gentle stretches, and engaging programs, fostering well-being and joy",
     },
     {
-      icon: "/images/icon-6.svg",
+      icon: "/images/physical-activity.png",
       title: "Physical Activities",
       description: "We offer a range of gentle physical activities like sewing, baking, and crafting to keep seniors active and engaged.  "
     }, 

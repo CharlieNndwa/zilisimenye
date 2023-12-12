@@ -23,7 +23,7 @@ const footerContent = {
         description: "Please feel free to reach out to us with any inquiries, questions, or assistance you may need.",
         address: {
             street: "29 Leeuwkuil Drive, Duncanville, 1939",
-            phone: "+27 76 036 0344 / +27 73 881 2667",
+            phone: "016 426 0006 / +27 76 036 0344 ",
             email: "Zilisimenye@gmail.com",
         }
     },
